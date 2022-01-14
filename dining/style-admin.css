@@ -1,0 +1,427 @@
+
+@font-face{
+    font-family: header_font1;
+    src:url(lib/fonts/RAVIE.TTF);
+}
+@font-face{
+    font-family: header_font2;
+    src:url(lib/fonts/MATURASC.TTF);
+}
+/* CSS for login form */
+.wrapperLogin {
+    margin-top: 7%;
+    margin-left: 12%;
+    width: 70%;
+    border-radius: 10px;
+    height: auto;
+    background-color: #FFECEC;
+    padding: 2%;
+}
+.login_header h2{
+    color: #088282;
+}
+.input-text{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    font-weight: bolder;
+    color: #0D7B7B;
+}
+
+/****** CSS For index page   ******/
+
+
+
+#admin-text {
+    color: rgb(255, 255, 255);
+    margin-left: -14px;
+    margin-top: 0px;
+    background: #0D7B7B;
+    padding: 20px;
+    margin-right: -14px;
+}
+#content{
+
+   /* width:60%; */
+    margin-left:60px;
+    height: auto;
+}
+#sidebar {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 58px;
+    border-right: 1px solid #566;
+}
+#sidebar ul{
+    list-style: none;
+
+}
+#sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px dotted #0D7B7B;
+    margin-right: 10px;
+}
+#sidebar ul li:hover {
+    background-color: #0D7B7B;
+    color: #FFF;
+}
+#sidebar ul li a {
+    text-decoration: none;
+    color: 000;
+}
+#sidebar ul li a:hover{
+
+    text-decoration: underline;
+    color: FFF;
+}
+.wrapper-admin {
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-bottom: 100%;
+    background: -webkit-linear-gradient(top, #c6ebf9, #adedf5), #ddfdfb;
+}
+
+
+
+
+/*** Footer change ***/
+
+.wrapper-footer-change{
+
+}
+#footer-change-text{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #0D7B7B;
+    font-size: 17px;
+}	
+
+
+#footer-change-text input{
+    width: 100%;
+}	
+
+#submit-footer {
+    margin-top: 11px;
+    height: 50px;
+    width: 100px;
+    background-color: #0D7B7B;
+    border-radius: 10px;
+    font-family: Halvetica;
+    font-size: 20px;
+    cursor: pointer;
+}
+input#submit-footer:hover {
+    background-color: #333333;
+    color: #FFF;
+}
+th {
+    text-align: center;
+}
+table.tbl1{
+    margin-top: 10px;
+}
+table.tbl1 tr td input[type="text"] {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    font-weight: bolder;
+    color: #0D7B7B;
+}
+
+table.tbl2{
+    margin-top: 10px;
+}
+
+table.tbl2 tr td{
+    text-align: center;
+}
+
+table.tbl2 tr:nth-child(2n+1){
+    background: #D8DEDE;
+}
+table.tbl2 tr:nth-child(2n){
+    background: #a2b7b1;
+}
+
+#mang-tbl-header {
+    color: #000;
+    background: #0D7B7B;
+    height: 50px;
+}
+#add-catagory {
+    margin-top: 11px;
+    height: 38px;
+    color: #FFF;
+    width: 78px;
+    background-color: #0D7B7B;
+    border-radius: 10px;
+    font-family: Halvetica, Arial, Tahoma;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.editCat h2 {
+    text-align: center;
+    border-bottom: 2px solid #0D7B7B;
+}
+.editCat input{
+    text-align: center;
+}
+#update-btn {
+    margin-top: 11px;
+    height: 38px;
+    color: #FFF;
+    width: 78px;
+    background-color: #0D7B7B;
+    border-radius: 10px;
+    font-family: Halvetica, Arial, Tahoma;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 155px;
+    text-align: center;
+}
+
+#tr-separate {
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    border-bottom: 2px solid #0D7B7B;
+}
+.gaptop{
+    padding-top: 20px;
+}
+
+
+td, th {
+    padding: 5px;
+    text-align: left;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 6px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+.border-bootom{
+    border-bottom: 1px solid #445;
+    width: 50%;
+}
+
+.error{
+    color: #CC1F0A;
+    font-weight: bold;
+    margin: 5px;
+}
+.success{
+    color: #30AD14;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+/* index dashboard */
+.dashboard_description{
+
+}
+.dashboard_description h2{
+
+}
+.dashboard_description p{
+    color:orange;
+    font-weight: bold;
+    font-family: Gill, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Override bootstrap CSS **/
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #009688;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: #1D6D6D;
+    border-color: #428bca;
+}
+.btn-info {
+    color: #fff;
+    background-color: #0D7B7B;
+    border-color: #46b8da;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #0D7B7B;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+label {
+    cursor: default;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #16DADA;
+}
+
+
+/***** Settings page CSS ****/
+
+.post_number_in_home{
+    display: grid;
+    width: 30%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+/*** My list style of admin files ***/
+.list_mystyle{
+    background-color: rgba(0, 162, 162, 0.63);
+    color:#000;
+}
+.list_mystyle_active{
+    background-color: #003838;
+    color:#000;
+}
+.list_mystyle a{
+    color:#000;
+}
+.list_mystyle a:hover{
+    color:#FFF;
+}
+.list_mystyle:hover{
+    color:#FFF;
+    background-color: #003838; /* DEEP Color */
+}
+.required{
+    color: red;
+    font-weight: bolder;
+}
+
+.admin_sidebar{
+    background-color: rgba(13, 123, 123, 0.32);
+}
+.message_background {
+    background-color: rgba(22, 218, 218, 0.15);
+    padding: 5px;
+    border-radius: 10px;
+}
+.text_admin1{font-family: header_font1}
+.text_admin2{font-family: header_font2}
+.admin_top_text{color: #050508;background-color: #0D7B7B;min-width: 200px}
+.admin_top_text:hover{color: #050508;background-color: thistle;}
+.admin_header_li{    padding: 5px;
+    font-size: 1em;
+    text-align: left;
+    font-weight: bolder;
+    background: #AEC6C6;
+    color: #1C6B6B;}
